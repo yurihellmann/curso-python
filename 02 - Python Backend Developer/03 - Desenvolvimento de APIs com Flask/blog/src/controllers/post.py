@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 from flask import Blueprint, request
 from sqlalchemy import inspect
-from src.app import Post, db
+from app import Post, db
 
 # localhost:5000/users
 
